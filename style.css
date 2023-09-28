@@ -65,6 +65,7 @@ a:hover {
     background: url(./images/Gift-shop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 .btn {
     margin-left: 10%;
