@@ -90,8 +90,8 @@ a:hover {
     display: none;
 }
 .content span {
-    animation-name: shakeEffect;
-    animation-duration: 5s;
+    animation-name: changecolor;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
@@ -155,7 +155,7 @@ a:hover {
        background-color: blue;
     }
 }
-@keyframes shakeEffect {
+@keyframes changecolor {
     0% {
        color: red;
 
