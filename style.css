@@ -52,6 +52,7 @@ a:hover {
     margin-left: 10%;
     font-size: 40px;
     text-transform: uppercase;
+   
 }
 .content p {
     color: white;
@@ -73,6 +74,9 @@ a:hover {
     padding: 25px;
     border-radius: 20px;
     background-color: yellowgreen;
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .btn:hover {
     background-color: green;
@@ -84,6 +88,11 @@ a:hover {
 }
 .Header nav ul label {
     display: none;
+}
+.content span {
+    animation-name: shakeEffect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 @media screen and (max-width:900px) {
@@ -130,4 +139,34 @@ a:hover {
     color: white;
    }
   
+}
+@keyframes colorChange {
+    0% {
+       background-color: red;
+
+    }
+    25% {
+        background-color: white;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+       background-color: blue;
+    }
+}
+@keyframes shakeEffect {
+    0% {
+       color: red;
+
+    }
+    25% {
+       color: white;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
 }
