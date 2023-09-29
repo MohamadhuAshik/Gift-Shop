@@ -74,9 +74,6 @@ a:hover {
     padding: 25px;
     border-radius: 20px;
     background-color: yellowgreen;
-    animation-name: colorChange;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 .btn:hover {
     background-color: green;
@@ -140,21 +137,7 @@ a:hover {
    }
   
 }
-@keyframes colorChange {
-    0% {
-       background-color: red;
 
-    }
-    25% {
-        background-color: white;
-    }
-    50% {
-        background-color: yellow;
-    }
-    100% {
-       background-color: blue;
-    }
-}
 @keyframes changecolor {
     0% {
        color: red;
